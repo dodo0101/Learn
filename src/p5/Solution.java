@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+
+
 public class Solution  {
 	
 	public static void main(String[] args) throws FileNotFoundException, IOException {
@@ -21,10 +23,12 @@ public class Solution  {
 		while(breader2.ready()) {
 			sbuild.append(breader2.readLine());
 		}
-		
+		//TEST
 		String result = sbuild.toString();
-		
 		System.out.println(result);
+		
+		
+		
 		
 		breader2.close();
 		
